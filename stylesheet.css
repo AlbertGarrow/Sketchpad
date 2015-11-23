@@ -1,5 +1,5 @@
-div {
-    display: inline-block;
+.gridSquare {
+    display: inline;
     border: 2px solid black;
 }
 
