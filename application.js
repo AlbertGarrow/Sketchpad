@@ -8,14 +8,14 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-    $(document).on("mouseenter", ".gridSquare", function(){
-        $(this).css("background-color", "blue");
+    $("button").click(function(){
+        newGrid();
     });
 });
 
 $(document).ready(function(){
-	$("button").click(function(){
-        newGrid();
+    $(document).on("mouseenter", ".gridSquare", function(){
+        $(this).css("background-color", "blue");
     });
 });
 
